@@ -83,7 +83,7 @@ ul, p {
 /* header ------------------------------------------*/
 
 .header {
-    background: #010101 0% 0% no-repeat padding-box;
+    background: #010101;
     border: 1px solid #707070;
     border-radius: 16px;
     display: flex;
@@ -211,7 +211,7 @@ img.Hlogo {
 .Hlogin button {
     width: 158px;
     height: 46px;
-    background: #0CBF8A 0% 0% no-repeat padding-box;
+    background: #0CBF8A;
     border-radius: 21px;
     border: none;
     color: #FFFFFF;
@@ -414,13 +414,13 @@ section.products .titleSection::before {
 }
 
 .btn_ {
-    background: #FFD365 0% 0% no-repeat padding-box;
+    background: #FFD365;
     border-radius: 12px;
     border: none;
 }
 
 .btn_:hover {
-    background: #deb44a 0% 0% no-repeat padding-box;
+    background: #deb44a;
 }
 
 .boxsProductsIndex .btn_ {
@@ -437,7 +437,7 @@ section.products .titleSection::before {
 
 .product {
     height: 497px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     box-shadow: 0px 20px 50px #9b9b9b29;
     border-radius: 20px;
     padding: 15px;
@@ -525,7 +525,7 @@ section.products .titleSection::before {
 }
 
 .rate .checked {
-    color: orange;
+    color: #FFC107;
 }
 
 .Pfooter {
@@ -548,7 +548,7 @@ section.products .titleSection::before {
     right: 29px;
     top: 24px;
     cursor: pointer;
-    background: #019267 0% 0% no-repeat padding-box;
+    background: #019267;
     opacity: .5;
     transition: 1s;
 
@@ -643,13 +643,14 @@ section.ads {
 }
 
 .whyHealthyItem .icon {
-    background: #ECAB38 0% 0% no-repeat padding-box;
+    background: #ECAB38;
     border-radius: 20px;
     width: 105px;
     height: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
 .whyHealthyItem .icon .quikly {
@@ -705,7 +706,7 @@ section.ads {
 
 
 .news_center {
-    background: #019267 0% 0% no-repeat padding-box;
+    background: #019267;
     border: 1px solid #707070;
     border-radius: 52px;
     height: 400px;
@@ -739,7 +740,7 @@ section.ads {
     position: absolute;
     right: 13px;
     width: 138px;
-    background: #ECAB38 0% 0% no-repeat padding-box;
+    background: #ECAB38;
     border-radius: 20px !important;
     padding: 19px;
 }
@@ -773,36 +774,101 @@ section.ads {
 /* customerReview */
 
 .customerReviews {
-    background: #F8FFFD 0% 0% no-repeat padding-box;
+    background: #F8FFFD;
     margin-top: 64px;
-    height: 300px;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
-.swiperReviews{
-    height: 240px;
+.swiperReviews {
+    min-height: 240px;
 }
+
+.customerReviews .swiper-pagination {
+    margin-top: 33px;
+    position: relative;
+}
+
 .swiper-pagination-bullet {
-    background: #F3EDED 0% 0% no-repeat padding-box;
+    background: #2e2e2e;
     border-radius: 10px;
     width: 25px;
 
 }
 
 .swiper-pagination-bullet-active {
-    background: #019267 0% 0% no-repeat padding-box;
+    background: #019267;
     border-radius: 10px;
     width: 25px;
+}
+
+.CRContent {
+    max-width: 677px;
+    margin: auto;
+    padding: 30px;
+}
+
+.CRContent h2 {
+    margin-bottom: 30px;
+    margin-top: 4px;
+}
+
+
+
+.swiperReviews_item .fa-quote-left {
+    font-size: 26px;
+    color: #019267;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.swiperReviews_item .fa-quote-right {
+    font-size: 26px;
+    color: #019267;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.swiperReviews_item .des {
+    font-size: 16px;
+    padding: 14px;
+}
+
+
+.swiperReviews .rate {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.swiperReviews .user {
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.swiperReviews .user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.swiperReviews .user h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.swiperReviews .user p {
+    color: #F2A22F;
 }
 
 /* footer */
 
 
 .footer {
-    background: #000000 0% 0% no-repeat padding-box;
+    background: #000000;
     color: #F5F5F5;
     margin-top: 50px;
 }
@@ -831,7 +897,7 @@ section.ads {
 
 .footerSection .title::after {
     content: "";
-    background: #575757 0% 0% no-repeat padding-box;
+    background: #575757;
     border-radius: 25px;
     height: 5px;
     display: block;
@@ -870,7 +936,7 @@ section.ads {
 }
 
 .icon {
-    background: #1E1E1E 0% 0% no-repeat padding-box;
+    background: #1E1E1E;
     border: 1px solid #B8B8B8;
     border-radius: 20px;
     padding: 15px;
@@ -922,7 +988,7 @@ section.ads {
 
 
 .Fsections3 {
-    background: #ECAB38 0% 0% no-repeat padding-box;
+    background: #ECAB38;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
@@ -939,7 +1005,7 @@ section.ads {
 .modal-content_ {
     max-width: 100%;
     padding: 20px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border: 1px solid #707070;
     border-radius: 25px;
     overflow: auto !important
@@ -991,7 +1057,7 @@ section.ads {
 }
 
 .modal-content_ .loginBtn {
-    background: #019267 0% 0% no-repeat padding-box;
+    background: #019267;
     border-radius: 10px;
     color: #fff;
     border: none;
@@ -1104,7 +1170,7 @@ section.ads {
 
 
 .input_ {
-    background: #F9F9F9 0% 0% no-repeat padding-box;
+    background: #F9F9F9;
     border: 1px solid #D4CECE;
     border-radius: 5px;
     padding: 13px 0px;
@@ -1171,7 +1237,7 @@ section.ads {
 }
 
 .MCAdToCart button {
-    background: #ECAB38 0% 0% no-repeat padding-box;
+    background: #ECAB38;
     border-radius: 10px;
     width: 187px;
     padding: 14px;
@@ -1182,7 +1248,7 @@ section.ads {
 }
 
 .MCQplus, .MCQminus {
-    background: #019267 0% 0% no-repeat padding-box;
+    background: #019267;
     border-radius: 10px;
     font-size: 19px;
     display: flex;
@@ -1195,7 +1261,7 @@ section.ads {
 }
 
 .MCQinput input {
-    background: #FFF3D6 0% 0% no-repeat padding-box;
+    background: #FFF3D6;
     border-radius: 10px;
     border: none;
     text-align: center;
@@ -1278,7 +1344,7 @@ section.ads {
 }
 
 .CPaddress {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border: 1px solid #D4CECE;
     border-radius: 15px;
     padding: 60px 30px;
@@ -1426,7 +1492,7 @@ section.ads {
 }
 
 .CPnexStep {
-    background: #019267 0% 0% no-repeat padding-box;
+    background: #019267;
     border-radius: 37px;
     width: 200px;
     padding: 10px;
@@ -1485,9 +1551,12 @@ section.ads {
 /* bootstrap Large ≥992px */
 
 @media (max-width:991px) {
+
+ 
     .Hsection2 {
         display: none;
     }
+
 
     .menuIcon {
         display: block;
@@ -1540,7 +1609,7 @@ section.ads {
     }
 
     .news_content {
-        max-width: 490px;
+        max-width: 100%;
         color: #fff;
         margin: auto;
         display: flex;
@@ -1582,6 +1651,10 @@ section.ads {
     .section.head .headImg img {
         max-width: max-content;
         height: auto;
+    }
+
+    .news_center{
+        margin-top: 30px;
     }
 
 }
@@ -1646,6 +1719,10 @@ section.ads {
 
     .CPaddress {
         margin-top: 30px;
+    }
+
+    .CRContent {
+        text-align: center;
     }
 }
 

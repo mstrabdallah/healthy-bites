@@ -3,7 +3,7 @@
 
             <div class="news_center">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="news_content">
                             <h2>يمكن متابعه اخبارنا اول باول</h2>
 
@@ -15,7 +15,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="news_img">
                             <img src="../images/beautiful-young-woman-with-vegetables-grocery-bag-home.png" alt="beautiful-young-woman-with-vegetables-grocery-bag-home" />
                         </div>

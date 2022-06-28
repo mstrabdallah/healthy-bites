@@ -13,3 +13,10 @@ function openMenu() {
 
     // document.getElementsByClassName("menu").addcslashes = "block";
 }
+
+
+var swiper = new Swiper(".swiperReviews", {
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
