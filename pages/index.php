@@ -10,43 +10,27 @@
     <!-- css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="../styles/all.css" rel="stylesheet" />
 </head>
 
 <body id="body">
 
+
+
+
+    <?php include '../layout/header.php'  ?>
+
+
+    <?php include './login.php'; ?>
+    <?php include './register.php'; ?>
+    <?php include './cartModel.php'; ?>
+
+
+    <?php include '../layout/menu.php'; ?>
+
+
     <div class="container_">
-
-
-       <?php include '../layout/header.php'  ?>
-
-
-        <?php include './login.php'; ?>
-        <?php include './register.php'; ?>
-        <?php include './cart.php'; ?>
-
-
-        <nav class="menu" id="menu">
-            <div class="menuIcon" onclick="openMenu()"></div>
-
-            <div class="input-group rounded">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-
-            </div>
-
-            <div class="menuUl">
-                <ul>
-                    <li><a href="#" onclick="openMenu()">الرئيسية</a></li>
-                    <li><a href="#" onclick="openMenu()">كل المنتجات</a></li>
-                    <li><a href="#" onclick="openMenu()">افضل المنتجات</a></li>
-                    <li><a href="#" onclick="openMenu()">عروضنا</a></li>
-                    <li><a href="#" onclick="openMenu()">من نحن</a></li>
-                </ul>
-            </div>
-        </nav>
-
-
         <section class="section head">
 
             <div class="row">
@@ -66,7 +50,9 @@
             </div>
 
         </section>
+    </div>
 
+    <div class="container_">
         <section class="products">
             <h2 class="titleSection">الأكثر مبيعا</h2>
 
@@ -119,7 +105,9 @@
 
 
         </section>
+    </div>
 
+    <div class="container_">
         <section class="products">
             <h2 class="titleSection">عسل ابيض</h2>
 
@@ -169,8 +157,9 @@
                 </a>
             </div>
         </section>
+    </div>
 
-
+    <div class="container_">
         <section class="ads">
             <div class="row">
 
@@ -197,7 +186,9 @@
                     </div>
                 </div>
         </section>
+    </div>
 
+    <div class="container_">
         <section class="products">
             <h2 class="titleSection">مقترحات</h2>
 
@@ -247,7 +238,9 @@
                 </a>
             </div>
         </section>
+    </div>
 
+    <div class="container_">
         <section class="products">
             <h2 class="titleSection">الأكثر مبيعا</h2>
 
@@ -298,7 +291,9 @@
                 </a>
             </div>
         </section>
+    </div>
 
+    <div class="container_">
         <section class="whyHealthy">
 
             <div class="row">
@@ -350,132 +345,17 @@
                 </div>
             </div>
         </section>
-
-
-        <section class="news">
-
-            <div class="news_center">
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="news_content">
-                            <h2>يمكن متابعه اخبارنا اول باول</h2>
-
-                            <div class="input-group mb-3 flex_">
-                                <i></i>
-                                <input type="text" class="form-control" placeholder="البريد الالكترونى" aria-label="Username" aria-describedby="basic-addon1">
-
-                                <button class="btn_">اشتراك الان</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="news_img">
-                            <img src="../images/beautiful-young-woman-with-vegetables-grocery-bag-home.png" alt="beautiful-young-woman-with-vegetables-grocery-bag-home" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
     </div>
 
-    <footer class="footer">
-        <div class="container_">
-            <div class="Fsections1">
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <div class="footer_logo">
-                            <img class="Flogo" src="../images/logo.png" />
-                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-2">
-                        <div class="footerSection products">
-                            <div class="title">المنتجات</div>
-                            <ul>
-                                <li><a href="#">مقرمشات</a></li>
-                                <li><a href="#">دقيق</a></li>
-                                <li><a href="#">زيتوت</a></li>
-                                <li><a href="#">أنواع العسل</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-2">
-                        <div class="footerSection">
-                            <div class="title">اكتشف</div>
-                            <ul>
-                                <li><a href="#">تنزيلات</a></li>
-                                <li><a href="#">محدّد موقع المتجر</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-2">
-                        <div class="footerSection">
-                            <div class="title">عنا</div>
-                            <ul>
-                                <li><a href="#">الآراء والتعليقات</a></li>
-                                <li><a href="#">جولة في الموقع</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-2">
-                        <div class="footerSection">
-                            <div class="title">مساعدة</div>
-                            <ul>
-                                <li><a href="#">اتصل بنا</a></li>
-                                <li><a href="#">الشحن والتوصيل</a></li>
-                                <li><a href="#">إجراءات الإرجاع</a></li>
-                                <li><a href="#">سياسة الإرجاع</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="Fsections2">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="Fsections2Item flex_">
-                            <div class="icon"><i class="phone"></i></div>
-                            <div class="contact">
-                                <h3>التحدث الينا</h3>
-                                <p>02205151515521</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="Fsections2Item flex_">
-                            <div class="icon"><i class="question"></i></div>
-                            <div class="contact">
-                                <h3>مركز المساعده</h3>
-                                <p>help.healthy.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="Fsections2Item flex_">
-                            <div class="icon"><i class="email"></i></div>
-                            <div class="contact">
-                                <h3>راسلنا</h3>
-                                <p>mangaia@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <?php include '../sections/customerReviews.php'; ?>
+    <?php include '../sections/news.php'; ?>
 
 
-        </div>
-        <div class="Fsections3">
-            جميع الحقوق محفوظة لدى شركة @ هيلثى
-        </div>
-    </footer>
+
+
+
+
+    <?php include '../layout/footer.php'; ?>
 
 
 
@@ -484,23 +364,24 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
-        function openMenu() {
-            var element = document.getElementById("menu");
-            var element2 = document.getElementsByTagName('body')[0]
-
-            if (element.classList.contains('active')) {
-                element.classList.remove('active');
-                element2.classList.remove('active')
-            } else {
-                element.classList.add('active')
-                element2.classList.add('active')
-            }
-            // element.classList.add("active");
-
-            // document.getElementsByClassName("menu").addcslashes = "block";
-        }
+        var swiper = new Swiper(".swiperReviews", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
     </script>
+
+    <script src="../js/functions.js"></script>
+
+
+
+
 </body>
 
 </html>
