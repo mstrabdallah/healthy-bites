@@ -18,5 +18,24 @@ function openMenu() {
 var swiper = new Swiper(".swiperReviews", {
     pagination: {
         el: ".swiper-pagination",
+        clickable: true,
     },
 });
+
+
+var swiper = new Swiper(".productImages", {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  var swiper2 = new Swiper(".productImages2", {
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper,
+    },
+  });
