@@ -191,61 +191,166 @@
         </div>
 
 
-        <div class="ddd">
+        <div class="PPopinions">
+            <div class="PPopinions_head">
+                <h2>الاراء</h2>
+            </div>
             <div class="row">
-                <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
-                    <div class="rating-card">
-                        <div class="text-center m-b-30">
-                            <h4>Rating Overview</h4>
-                            <br>
-                            <h1 class="rating-number">4.3<small>/5</small></h1>
-                            <div class="rating-stars d-inline-block position-relative mr-2">
-                                <img src="images/grey-star.svg" alt="">
-                                <div class="filled-star" style="width:86%"></div>
-                            </div>
-                            <div class="text-muted">2,145 ratings</div>
-                        </div>
-                        <div class="rating-divided">
-                            <div class="rating-progress">
-                                <span class="rating-grade">5 <img src="./images/star.svg" alt=""></span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="col-sm-12 col-lg-6 ">
+                    <div class="rating-card_">
+                        <div class="rating-card">
+                            <div class="rating-card1 text-center m-b-30">
+                                <h4>التقييم العام</h4>
+                                <br>
+                                <h1 class="rating-number">4.4</h1>
+                                <div class="rating-stars d-inline-block position-relative mr-2">
+                                    <img src="../images/grey-star.svg" alt="">
+                                    <div class="filled-star" style="width:86%"></div>
                                 </div>
-                                <span class="rating-value">1,985</span>
+                                <div class="text-muted">33 اراء من الناس</div>
                             </div>
-                            <div class="rating-progress">
-                                <span class="rating-grade">4 <img src="./images/star.svg" alt=""></span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="rating-divided">
+                                <div class="rating-progress">
+                                    <span class="rating-grade">5 <span class="fa fa-star"></span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="rating-value">(22)</span>
                                 </div>
-                                <span class="rating-value">356</span>
-                            </div>
-                            <div class="rating-progress">
-                                <span class="rating-grade">3 <img src="./images/star.svg" alt=""></span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 8%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="rating-progress">
+                                    <span class="rating-grade">4 <span class="fa fa-star"></span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="rating-value">(3)</span>
                                 </div>
-                                <span class="rating-value">130</span>
-                            </div>
-                            <div class="rating-progress">
-                                <span class="rating-grade">2 <img src="./images/star.svg" alt=""></span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 6%" aria-valuenow="6" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="rating-progress">
+                                    <span class="rating-grade">3 <span class="fa fa-star"></span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 8%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="rating-value">(4)</span>
                                 </div>
-                                <span class="rating-value">90</span>
-                            </div>
-                            <div class="rating-progress">
-                                <span class="rating-grade">1 <img src="./images/star.svg" alt=""></span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 3%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="rating-progress">
+                                    <span class="rating-grade">2 <span class="fa fa-star"></span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 6%" aria-valuenow="6" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="rating-value">(90)</span>
                                 </div>
-                                <span class="rating-value">33</span>
+                                <div class="rating-progress">
+                                    <span class="rating-grade">1 <span class="fa fa-star"></span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 3%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="rating-value">(33)</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-sm-12 col-lg-6 ">
+                    <div class="PPopinionsAdd">
+
+                        <div class="user_">
+                            <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-144736,resizemode-1,msid-69037337/small-biz/startups/newsbuzz/fraud-is-only-possible-if-user-grants-access-oldrich-mller-coo-anydesk/oldrich-muller.jpg" />
+                            <h3>عبداللطيف العظمه</h3>
+                        </div>
+
+                        <form class="form_" method="POST" action="">
+
+                            <div class="form-group form-group_">
+                                <input id="opinions" type="text" class="form-control custom-input " name="opinions" placeholder=" اكتب رايك يهمنا ؟" required>
+                            </div>
+
+                            <div class="footer_">
+                                <button type="submit" class="PPopinionsBtn">راسال</button>
+
+                            </div>
+                    </div>
+                    </form>
+                </div>
+
             </div>
         </div>
+
+
+        <div class="PPcomments">
+            <h2 class="PPcommentsTitle">4 تعليقات</h2>
+
+            <div class="PPcommentsItem">
+                <div class="user_">
+                    <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-144736,resizemode-1,msid-69037337/small-biz/startups/newsbuzz/fraud-is-only-possible-if-user-grants-access-oldrich-mller-coo-anydesk/oldrich-muller.jpg" />
+                    <div>
+                        <h3>عبداللطيف العظمه</h3>
+                        <div class="rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                        <div class="date">16-6-2021</div>
+                    </div>
+                </div>
+
+                <div class="PPcommentContent">
+                    تجربة تسوق رائعه فقط من خلال نون ابليكيشن توصيل طلبات سريييييع جدا شكرا فريق عمل هيلثى
+                </div>
+            </div>
+
+            <div class="PPcommentsItem">
+                <div class="user_">
+                    <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-144736,resizemode-1,msid-69037337/small-biz/startups/newsbuzz/fraud-is-only-possible-if-user-grants-access-oldrich-mller-coo-anydesk/oldrich-muller.jpg" />
+                    <div>
+                        <h3>عبداللطيف العظمه</h3>
+                        <div class="rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                        <div class="date">16-6-2021</div>
+                    </div>
+                </div>
+
+                <div class="PPcommentContent">
+                    تجربة تسوق رائعه فقط من خلال نون ابليكيشن توصيل طلبات سريييييع جدا شكرا فريق عمل هيلثى
+                </div>
+            </div>
+
+
+            <div class="PPcommentsItem">
+                <div class="user_">
+                    <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-144736,resizemode-1,msid-69037337/small-biz/startups/newsbuzz/fraud-is-only-possible-if-user-grants-access-oldrich-mller-coo-anydesk/oldrich-muller.jpg" />
+                    <div>
+                        <h3>عبداللطيف العظمه</h3>
+                        <div class="rate">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                        <div class="date">16-6-2021</div>
+                    </div>
+                </div>
+
+                <div class="PPcommentContent">
+                    تجربة تسوق رائعه فقط من خلال نون ابليكيشن توصيل طلبات سريييييع جدا شكرا فريق عمل هيلثى
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
     </div>
 
     <?php include '../sections/similarProducts.php'; ?>
