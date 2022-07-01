@@ -82,6 +82,14 @@ ul, p {
 
 /* header ------------------------------------------*/
 
+
+ 
+.headerMain {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 99px;
+}
 .header {
     background: #010101;
     border: 1px solid #707070;
@@ -91,8 +99,22 @@ ul, p {
     justify-content: space-between;
     height: 80px;
     margin-top: 20px;
-    position: relative;
     z-index: 99;
+    position:absolute;
+    width: 100%;
+    
+    
+}
+
+.headerFixed{
+    position: fixed;
+    top: 0;
+    margin: auto;
+ }
+
+.header.headerFixed{
+    border: none;
+    border-radius: 0px;
 }
 
 img.Hlogo {
@@ -1333,11 +1355,11 @@ section.ads {
     height: 280px;
     position: absolute;
     top: 0;
-    background-image: url(../images/headBefor.png);
+    background-image: url(../images/VectorSmart.png);
     background-size: contain;
 }
 
-.cartPage .head_ h1 {
+.pageHeader .head_ h1 {
     position: relative;
     z-index: 1;
     text-align: center;
@@ -1562,7 +1584,7 @@ section.ads {
     padding: 10px;
     width: 99px;
     font-weight: bold;
-    background: #F6F6F6 0% 0% no-repeat padding-box;
+    background: #F6F6F6;
     border-radius: 5px;
     border: none;
 }
@@ -1588,7 +1610,7 @@ section.ads {
 }
 
 .addToCard {
-    background: #019267 0% 0% no-repeat padding-box;
+    background: #019267;
     border-radius: 15px;
     color: #fff;
     border: navajowhite;
@@ -1609,7 +1631,7 @@ section.ads {
 }
 
 .PPInfo .sizes_item {
-    background: #FCFCFC 0% 0% no-repeat padding-box;
+    background: #FCFCFC;
     border: 1px solid #D4CECE;
     border-radius: 5px;
     margin: 5px 7px;
@@ -1675,7 +1697,7 @@ section.ads {
     margin: 10px;
     margin-top: -141px;
     padding: 10px;
-    background: #ffffff3d 0% 0% no-repeat padding-box;
+    background: #ffffff3d;
     border-radius: 20px;
 }
 
@@ -1711,7 +1733,7 @@ section.ads {
 }
 
 .PPDes {
-    background: #FCF7EF 0% 0% no-repeat padding-box;
+    background: #FCF7EF;
     border-radius: 24px;
     min-height: 395px;
     margin-top: 100px;
@@ -1929,7 +1951,7 @@ section.ads {
 
 .PPopinionsAdd form input {
     margin-top: 32px;
-    background: #F8F8F8 0% 0% no-repeat padding-box;
+    background: #F8F8F8;
     border-radius: 38px;
     padding: 10px 24px;
 }
@@ -2002,6 +2024,45 @@ section.ads {
     margin-bottom: 30px;
 }
 
+
+/* categoriesPage */
+
+.categoriesPage {}
+
+.categoriesPage .content {
+    margin-top: 140px;
+}
+
+.CPItems{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.CPItem {
+    color: #fff;
+    border-radius: 31px;
+    text-align: center;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.CPItem_content h2 {
+    font-size: 24px;
+}
+
+.CPItem_content h4 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.CPItem img{
+    height: 200px;
+}
+
 @media (max-width:1300px) {
 
     .container_ {
@@ -2035,7 +2096,8 @@ section.ads {
     .productImages {
         margin-top: -112px;
     }
-    .productImages2{
+
+    .productImages2 {
         margin-top: 56px;
     }
 }
@@ -2067,14 +2129,16 @@ section.ads {
         margin-top: 150px;
     }
 
-    .news_content{
+    .news_content {
         margin-left: 0px;
         margin-right: 0px;
     }
-    .news_content:lang(ar){
+
+    .news_content:lang(ar) {
         margin-left: 0px;
         margin-right: 0px;
     }
+
     .PPcommentsTitle {
         margin-top: 30px;
     }
@@ -2196,7 +2260,8 @@ section.ads {
         margin-top: 30px;
         height: auto;
     }
-    .news_content{
+
+    .news_content {
         height: 280px;
     }
 
