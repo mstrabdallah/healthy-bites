@@ -36,7 +36,7 @@
             <section class="content">
                 <div class="row">
 
-                    <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-3">
                         <div class="CPProfile">
                             <div class="PPI_img"><img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-144736,resizemode-1,msid-69037337/small-biz/startups/newsbuzz/fraud-is-only-possible-if-user-grants-access-oldrich-mller-coo-anydesk/oldrich-muller.jpg" /></div>
                             <h4>محمد عبد الرحمن ابرهيم</h4>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-9 col-xl-9">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-9">
                     <div class="profileHeader flex_">
                             <ul class="flex_">
                                 <li class="flex_">
@@ -176,6 +176,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <script src="../js/functions.js"></script>
 </body>

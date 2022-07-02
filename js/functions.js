@@ -61,4 +61,19 @@ const onScroll = () => {
 
 // Use the function
 window.addEventListener('scroll', onScroll)
-onScroll()
+onScroll();
+
+
+const priceRange = document.getElementById("priceRange")
+
+priceRange.addEventListener('change', function() {
+ 
+  document.getElementById("priceTo").value = priceRange.value;
+
+});
+
+function setPrice(e){
+  document.getElementById("priceTo").value = 12
+
+  console.log('---',e)
+}

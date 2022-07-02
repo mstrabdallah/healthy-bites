@@ -307,6 +307,10 @@ body.active>.menu {
     opacity: 1;
 }
 
+body.active>.show {
+    opacity: 1;
+}
+
 .menuUl {
     height: 100vh;
     overflow: scroll;
@@ -2127,6 +2131,10 @@ section.ads {
 /* bootstrap Large ≥992px */
 
 @media (max-width:991px) {
+    .showProducts {
+        margin-top: 30px !important;
+    }
+
     .whyHealthy {
         margin-top: 150px;
     }
@@ -2261,6 +2269,7 @@ section.ads {
     .news_center {
         margin-top: 30px;
         height: auto;
+        border-radius: 20px;
     }
 
     .news_content {
@@ -2272,18 +2281,248 @@ section.ads {
     }
 }
 
+.WAWtem_img img {
+    max-width: 508px;
+    height: 455px;
+    width: 100%;
+}
+
+.WAWtem_img {
+
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 1%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.WAWtem {
+    margin: auto;
+    margin-top: 72px;
+    max-width: 500px;
+}
+
+.msg_1 {
+    background: #FFF1CE;
+    width: max-content;
+    padding: 13px 67px;
+    font-size: 20px;
+    color: #ECAB38;
+    border-radius: 37px;
+}
+
+.WAWtem h3 {
+    margin-top: 35px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.WAWtem .des {
+
+    max-width: 546px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.rowWAWtem2 .msg_1 {
+    background: #DCFFF5;
+    color: #019267;
+}
+
+.rowWAWtem2 .WAWtem_img {}
+
+/* ProductsPage------------ */
+.ProductsPage {}
+
+.PPsearch {
+    padding-top: 29px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.PPsearch .iconSearch {
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background: #575756;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../images/search.svg);
+    mask-image: url(../images/search.svg);
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 9;
+    left: 21px;
+}
+
+.PPsearch .iconSearch:lang(ar) {
+    right: 21px;
+    left: auto;
+}
+
+.PPsearch .btn_ {
+    position: absolute;
+    width: 72px;
+    height: 57px;
+    right: 19px;
+    background: #ECAB38;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    border-top-left-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+}
+
+.PPsearch .btn_:lang(ar) {
+    right: auto;
+    left: 19px;
+}
+
+.PPsearch .iconSearchBtn {
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background: #ffffff;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../images/search.svg);
+    mask-image: url(../images/search.svg);
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 1;
+    left: 21px;
+}
+
+.PPsearch input {
+    box-shadow: 0px 10px 50px #aeaeae29;
+    border-radius: 20px !important;
+    padding: 30px 58px;
+    font-size: 16px;
+}
+
+.PSPFilter {
+    border: 1px solid #DEDEDE;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.PSPF_title {
+    background: #ECAB38;
+    border-radius: 11px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
-/* ----------------------------------------------------------------------------------------------------- */
+.PSPF_content {
+    margin-top: 20px;
+}
+
+.PSPF_content label {
+    color: #575756;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.PSPF_content .form-check .form-check-input {
+    cursor: pointer;
+
+}
+
+.PSPF_content .form-check .form-check-input:lang(ar) {
+    float: right;
+    margin-right: -1.5em;
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+}
+
+.PSPF_content .form-check .form-check-input:lang(en) {
+    float: left;
+    margin-left: -1.5em;
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+}
+
+.PSPF_content .form-check {
+    padding: 6px 22px;
+}
+
+
+.PSPF_price {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.PSPF_price h3 {
+    font-size: 18px;
+
+}
+
+.PSPF_price .inputP_ {
+    width: 59px;
+    background: #ffffff;
+    border: 1px solid #D4CECE;
+    border-radius: 5px;
+    padding: 4px 0px;
+    text-align: center;
+}
+
+.showProducts {
+    margin-top: 10px;
+    margin-bottom: 21px;
+}
+
+.ProductsPage .pagination {
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px #95959529;
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.ProductsPage .pagination .page-item {
+    margin: 0px 10px;
+}
+
+.ProductsPage .pagination .page-link {
+    border: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.ProductsPage .pagination .page-item.active .page-link {
+    background: #ECAB38 !important;
+    border-radius: 6px;
+    color: #fff !important
+}
+
+/* --------------------------------------------------------------------------------------------- */
 
 .profilePage .content {
-    margin-top: 170px;
+    margin-top: 37px;
+    z-index: 2;
+    position: relative;
 }
 
 .profilePage .CPProfile {
     border: 1px solid #d4cece;
     border-radius: 40px;
     padding: 10px 5px;
+    background: #fff;
 }
 
 .profilePage .CPProfile h4 {
@@ -2321,7 +2560,7 @@ section.ads {
 
 .profilePage .modal-content {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50px;
 }
 
@@ -2342,7 +2581,7 @@ section.ads {
 
 .profilePage .modal-body textarea {
     height: 120px;
-    border-radius: 30px;
+    border-radius: 15px;
     resize: none;
     padding: 15px;
     margin-bottom: 20px;
@@ -2363,40 +2602,127 @@ section.ads {
     border-radius: 15px;
 }
 
+
+.profilePage .profileHeader .IconMap_, .profilePage .menu_user_profile, .profilePage .menu_user_Favorites, .profilePage .menu_user_Orders, .profilePage .menu_user_Logout {
+    width: 18px;
+    height: 18px;
+    display: block;
+
+    background: #000000;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../images/IconUser.svg);
+    mask-image: url(../images/IconUser.svg);
+
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.profilePage .profileHeader .active i {
+    background: #ecab38;
+}
+
+  .profilePage .menu_user_profile:lang(ar), .profilePage .menu_user_Favorites:lang(ar), .profilePage .menu_user_Orders:lang(ar), .profilePage .menu_user_Logout:lang(ar) {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+ .profilePage .menu_user_profile:lang(ar), .profilePage .menu_user_Favorites:lang(ar), .profilePage .menu_user_Orders:lang(ar), .profilePage .menu_user_Logout:lang(ar) {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.profilePage .menu_user_Favorites {
+
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../images/save2.svg);
+    mask-image: url(../images/save2.svg);
+}
+
+.profilePage .menu_user_Orders {
+
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../images/order.svg);
+    mask-image: url(../images/order.svg);
+}
+
+.profilePage .menu_user_Logout {
+    width: 15px;
+    height: 15px;
+    background: url(../images/logout.svg);
+    background-size: 100% 100%;
+
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../images/order.svg);
+    mask-image: url(../images/order.svg);
+}
+
+.profilePage .profileHeader .IconMap_ {
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 10px;
+
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    -webkit-mask-image: url(../images/IconMap.svg);
+    mask-image: url(../images/IconMap.svg);
+}
+
+/* .profilePage .profileHeader .active .IconMap_ {
+    background: url(../images/IconMapActive.svg);
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+    display: block;
+    margin-right: 10px;
+} */
+
+.profilePage .modal.show .modal-dialog {
+    max-width: 700px;
+    padding: 20px;
+}
+.profilePage .modal-dialog .send_btn{
+    max-width: initial;
+}
+
 @media (max-width: 1200px) {
-    .CPProfile {
+    .profilePage .CPProfile {
         width: 50%;
         margin: 10px auto;
     }
 
-    .modal_btn {
+    .profilePage .modal_btn {
         width: 30%;
     }
 }
 
 @media (max-width: 676px) {
-    .CPProfile {
+    .profilePage .CPProfile {
         width: 80%;
         margin: 10px auto;
     }
 
-    .modal_btn {
+    .profilePage .modal_btn {
         width: 50%;
     }
 }
 
-.PPI_img {
+.profilePage .PPI_img {
     text-align: center;
 }
 
-.PPI_img img {
+.profilePage .PPI_img img {
     height: 250px;
     width: 95%;
     border-radius: 24px;
     border: 1px solid #ccc;
 }
 
-.profileHeader {
+.profilePage .profileHeader {
     height: 82px;
     background: #ffffff;
     border: 1px solid #d4cece;
@@ -2405,90 +2731,121 @@ section.ads {
     margin-bottom: 20px;
 }
 
-.profileHeader ul {
+.profilePage .profileHeader ul {
     width: 100%;
     height: 100%;
 }
 
-.profileHeader ul li {
+.profilePage .profileHeader ul li {
     width: 25%;
     height: 100%;
     font-size: 16px;
 }
 
-.profileHeader ul li:not(:first-of-type) {
+.profilePage .profileHeader ul li:not(:first-of-type) {
     justify-content: center;
 }
 
-.profileHeader ul li:not(:last-of-type) {
-    border-left: 1px solid #d4cece;
+.profilePage .profileHeader ul li:not(:last-of-type) {
+    border-right: 1px solid #d4cece;
 }
 
-.profileHeader ul li.active a {
+.profilePage .profileHeader ul li:not(:last-of-type):lang(ar) {
+    border-left: 1px solid #d4cece;
+    border-right: none;
+}
+
+.profilePage .profileHeader ul li.active a {
     color: #ecab38;
 }
 
-.profileHeader ul li a {
+.profilePage .profileHeader ul li a {
     display: flex;
     color: #000;
     font-weight: 900;
 }
 
-.profileHeader .IconMap_ {
-    background: url(../images/IconMap.svg);
-    width: 18px;
-    height: 18px;
-    background-size: 100% 100%;
-    display: block;
-    margin-right: 10px;
-}
 
-.profileHeader .IconMap_:lang(ar) {
+.profilePage .profileHeader .IconMap_:lang(ar) {
     margin-left: 10px;
     margin-right: 0px;
 }
 
-.profileHeader .active .IconMap_ {
-    background: url(../images/IconMapActive.svg);
-    width: 18px;
-    height: 18px;
-    background-size: 100% 100%;
-    display: block;
-    margin-right: 10px;
-}
 
-.profileHeader .active .IconMap_:lang(ar) {
+
+.profilePage .profileHeader .active .IconMap_:lang(ar) {
     margin-left: 10px;
     margin-right: 0px;
 }
 
 @media (max-width: 676px) {
-    .profileHeader {
+    .profilePage .profileHeader {
+        height: auto;
         padding: 8px;
     }
 
-    .profileHeader ul li a span {
-        font-size: 10px;
+    .profilePage .profileHeader ul {
+        flex-direction: column;
+    }
+
+    .profilePage .profileHeader ul li {
+        width: 80%;
+        height: 100%;
+        font-size: 16px;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .profilePage .profileHeader ul li:not(:last-of-type) {
+        border-bottom: 1px solid #f4f4f4;
+        border-left: none;
+        min-width: 208px;
+        justify-content: flex-start;
+    }
+
+    .profilePage .profileHeader ul li:not(:first-of-type) {
+        min-width: 208px;
+        justify-content: flex-start;
+    }
+
+    .profilePage .profileHeader ul li:not(:last-of-type) {
+        border-right: none;
+        border-left: none;
+    }
+
+    .profilePage .profileHeader ul li:not(:last-of-type):lang(ar) {
+        border-right: none;
+        border-left: none;
+    }
+
+    .profilePage .PPI_img img {
+        height: auto;
     }
 }
 
-.input_ {
+.profilePage .input_ {
     background: #ffffff;
     margin-top: 15px;
     color: #000;
+    padding-left: 20px;
 }
 
-.label_ {
+.profilePage .input_:lang(ar) {
+    padding-right: 20px;
+    padding-left: 0px;
+}
+
+.profilePage .label_ {
     font-weight: 900;
     font-size: 16px;
 }
 
-.input_:lang(ar) {
+.profilePage .input_:lang(ar) {
     padding-left: 0px;
     padding-right: 20px;
 }
 
-.Save_btn {
+.profilePage .Save_btn {
     background: #ecab38;
     border-radius: 10px;
     width: 180px;
@@ -2569,22 +2926,6 @@ section.ads {
         margin-left: 5px;
         margin-right: 0px;
     }
-
-    /* .profileHeader ul {
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-    }
-
-    .profileHeader ul li {
-        font-size: 18px;
-        width: 100%;
-        border-left: 1px solid #d4cece;
-    }
-
-    .profileHeader ul li:not(:first-of-type) {
-        justify-content: center;
-    } */
 }
 
 .addressBody .IconMap_ {
@@ -2626,9 +2967,43 @@ section.ads {
     border-radius: 30%;
 }
 
-/* bootstrap Medium ≥768px */
 
+
+/* ----------------------------------------------------------------------------------------- */
+@media (max-width:959px) {
+    .PPI_img img {
+        height: auto;
+    }
+
+    .WAWtem_img img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+/* bootstrap Medium ≥768px */
 @media (max-width:767px) {
+
+    .WAWtem_img img {
+        height: 300px;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .WAWtem {
+        text-align: center;
+    }
+
+    .msg_1 {
+        margin: auto;
+    }
+
+    .rowWAWtem2 {
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
 
     .productImages {
         margin-top: -93px;
