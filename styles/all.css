@@ -83,13 +83,14 @@ ul, p {
 /* header ------------------------------------------*/
 
 
- 
+
 .headerMain {
     display: flex;
     justify-content: center;
     position: relative;
     padding-bottom: 99px;
 }
+
 .header {
     background: #010101;
     border: 1px solid #707070;
@@ -100,19 +101,19 @@ ul, p {
     height: 80px;
     margin-top: 20px;
     z-index: 99;
-    position:absolute;
+    position: absolute;
     width: 100%;
-    
-    
+
+
 }
 
-.headerFixed{
+.headerFixed {
     position: fixed;
     top: 0;
     margin: auto;
- }
+}
 
-.header.headerFixed{
+.header.headerFixed {
     border: none;
     border-radius: 0px;
 }
@@ -2033,7 +2034,7 @@ section.ads {
     margin-top: 140px;
 }
 
-.CPItems{
+.CPItems {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -2059,7 +2060,8 @@ section.ads {
     padding-bottom: 20px;
     font-weight: 100;
 }
-.CPItem img{
+
+.CPItem img {
     height: 200px;
 }
 
@@ -2272,6 +2274,357 @@ section.ads {
 
 
 
+/* ----------------------------------------------------------------------------------------------------- */
+
+.profilePage .content {
+    margin-top: 170px;
+}
+
+.profilePage .CPProfile {
+    border: 1px solid #d4cece;
+    border-radius: 40px;
+    padding: 10px 5px;
+}
+
+.profilePage .CPProfile h4 {
+    margin: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.profilePage .CPProfile p {
+    text-align: center;
+    color: #acacac;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.profilePage .modal_btn {
+    display: block;
+    width: 60%;
+    margin: 40px auto;
+    background-color: #20cf9b;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profilePage .modal_btn span {
+    font-size: 18px;
+}
+
+.profilePage .modal-dialog {
+    max-width: 95%;
+    margin: 10rem auto 1.75rem;
+}
+
+.profilePage .modal-content {
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.profilePage .modal-content .img {
+    margin: 20px 20px 20px 0px;
+    text-align: center;
+}
+
+.profilePage .modal-content .img img {
+    width: 54px;
+}
+
+.profilePage .modal-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.profilePage .modal-body textarea {
+    height: 120px;
+    border-radius: 30px;
+    resize: none;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.profilePage .modal-dialog .send_btn {
+    max-width: 550px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profilePage .modal-dialog .send_btn button {
+    background-color: #09ac7c;
+    color: #fff;
+    width: 120px;
+    padding: 15px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+    .CPProfile {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .modal_btn {
+        width: 30%;
+    }
+}
+
+@media (max-width: 676px) {
+    .CPProfile {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .modal_btn {
+        width: 50%;
+    }
+}
+
+.PPI_img {
+    text-align: center;
+}
+
+.PPI_img img {
+    height: 250px;
+    width: 95%;
+    border-radius: 24px;
+    border: 1px solid #ccc;
+}
+
+.profileHeader {
+    height: 82px;
+    background: #ffffff;
+    border: 1px solid #d4cece;
+    border-radius: 20px;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+}
+
+.profileHeader ul {
+    width: 100%;
+    height: 100%;
+}
+
+.profileHeader ul li {
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.profileHeader ul li:not(:first-of-type) {
+    justify-content: center;
+}
+
+.profileHeader ul li:not(:last-of-type) {
+    border-left: 1px solid #d4cece;
+}
+
+.profileHeader ul li.active a {
+    color: #ecab38;
+}
+
+.profileHeader ul li a {
+    display: flex;
+    color: #000;
+    font-weight: 900;
+}
+
+.profileHeader .IconMap_ {
+    background: url(../images/IconMap.svg);
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+    display: block;
+    margin-right: 10px;
+}
+
+.profileHeader .IconMap_:lang(ar) {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.profileHeader .active .IconMap_ {
+    background: url(../images/IconMapActive.svg);
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+    display: block;
+    margin-right: 10px;
+}
+
+.profileHeader .active .IconMap_:lang(ar) {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+@media (max-width: 676px) {
+    .profileHeader {
+        padding: 8px;
+    }
+
+    .profileHeader ul li a span {
+        font-size: 10px;
+    }
+}
+
+.input_ {
+    background: #ffffff;
+    margin-top: 15px;
+    color: #000;
+}
+
+.label_ {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.input_:lang(ar) {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.Save_btn {
+    background: #ecab38;
+    border-radius: 10px;
+    width: 180px;
+    padding: 15px 10px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-top: 34px;
+    font-size: 16px;
+}
+
+/* Profile Address */
+.CADD {
+    border: 1px solid #d4cece;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.addressHeader {
+    margin-bottom: 30px;
+}
+
+.addressHeader ul,
+.addressBody ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addressBody ul {
+    justify-content: space-between;
+}
+
+.addressHeader ul li {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.addressBody ul {
+    align-items: center;
+    border: 1px solid #d5d5d5;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+.addressBody ul li {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+
+.addressBody ul li span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 676px) {
+    .addressHeader ul li {
+        font-size: 14px;
+    }
+
+    .addressBody ul li,
+    .addressBody ul li span {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .menu_user_Orders {
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    .menu_user_Orders:lang(ar) {
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+
+    /* .profileHeader ul {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .profileHeader ul li {
+        font-size: 18px;
+        width: 100%;
+        border-left: 1px solid #d4cece;
+    }
+
+    .profileHeader ul li:not(:first-of-type) {
+        justify-content: center;
+    } */
+}
+
+.addressBody .IconMap_ {
+    background: url(../images/IconMap.svg);
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+    display: block;
+    margin-right: 5px;
+}
+
+.addressBody .IconMap_:lang(ar) {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+/* Profile Favoriets */
+.product {
+    height: 400px;
+}
+
+.PHeader {
+    height: 180px;
+}
+
+.PHeader img {
+    margin-top: 8px;
+}
+
+.Pcontent h3 {
+    margin-top: 60px;
+}
+
+.Pfooter {
+    margin-top: 10px;
+}
+
+.Pfooter .addToCart {
+    border-radius: 30%;
+}
 
 /* bootstrap Medium ≥768px */
 
